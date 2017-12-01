@@ -3,3 +3,4 @@ export * from './Card';         // REMEMBER: to use this method you should simul
 export * from './CardSection';  // e.g. export { Button: Button}; --> it's an object with with a KEY of Button and a value of Button.
 export * from './Header';       // the same is: export { Button };
 export * from './Input';
+export * from './Spinner';

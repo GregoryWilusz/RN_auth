@@ -8,7 +8,7 @@ const Card = (props) => {
             {props.children}
         </View>
         // {props.children} will render any components that we passed to this current one!
-        // for example: it's executes line from AlbumDetail: <Text>{props.album.title}</Text> and replaces it instead of {props.children}!
+        // for example: it executes line from AlbumDetail: <Text>{props.album.title}</Text> and replaces it instead of {props.children}!
         // We use it when we know we will wrap within parent component some another components.
     );
 };

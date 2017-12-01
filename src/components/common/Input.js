@@ -24,8 +24,8 @@ const styles = {
         color: '#000',
         paddingRight: 5,
         paddingLeft: 5,
-        fontSize: 18, // To make sure user'll see what he types
-        lineHeight: 23, // How much space is between each line of text
+        fontSize: 18,       // To make sure user'll see what he types
+        lineHeight: 23,     // How much space is between each line of text
         flex: 2
     },
     labelStyle: {
