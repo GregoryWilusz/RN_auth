@@ -37,7 +37,12 @@ class App extends Component {
             case true: // Yep, you logged in
                 return (
                         <View style={{height: 45, marginTop: 10}}>
-                            <Button>Log out</Button>
+                            {/*Passing event handler within onPress*/}
+                            <Button whenPressed={() => firebase.auth().signOut()}>
+                                Log out
+                            </Button>
+                            {/* When we press the button, the instant I signed my user OUT, we are going to expect that our authentication state is changing (line with this.setState({loggedIn: false});
+                            and then line return <LoginForm />; will execute showing a login form. */}
                        </View>
                 );
             case false:
